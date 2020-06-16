@@ -6,4 +6,11 @@
 
     <color name="ListAcitvityColour">#9575CD</color>
     <color name="ListAcitvityListViewColour">#7986CB</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="bluegray">#CFD8DC</color>
+    <color name="inner">#00ACC1</color>
+
+    //--------------MainActivity---------------//
+    <color name="searchbar">#E0F7FA</color>
 </resources>

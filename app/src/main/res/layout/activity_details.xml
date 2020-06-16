@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:orientation="vertical"
+    android:background="#3CD3A3">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/details_ImageView"-->
+    <!--        android:layout_width="160dp"-->
+    <!--        android:layout_height="240dp"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:layout_marginTop="100dp"-->
+    <!--        android:src="@drawable/ic_launcher_foreground"-->
+
+    <!--        />-->
+
+
+    <TextView
+        android:id="@+id/details_TextView_Title"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="#424242"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/details_TextView_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignRight="@id/details_TextView_Catagory"
+
+        android:text="Price"
+        android:textColor="@color/bluegray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/details_TextView_Catagory"
+        android:layout_width="219dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-12dp"
+        android:text="Price"
+        android:textColor="@color/bluegray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/details_TextView_Description"
+        android:layout_width="328dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/details_ImageView"
+        android:layout_alignStart="@+id/details_ImageView"
+        android:layout_alignLeft="@+id/details_ImageView"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:text="Description"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        tools:ignore="UnknownId"/>
+
+    <TextView
+        android:id="@+id/details_TextView_DescL"
+        android:layout_width="391dp"
+        android:layout_height="295dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.8"
+        android:textColor="#333333"
+        android:textAlignment="center"
+        android:background="@drawable/box"
+        android:text="DESCL"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"/>
+
+
+
+</RelativeLayout>
